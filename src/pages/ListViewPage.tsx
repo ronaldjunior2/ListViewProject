@@ -44,7 +44,7 @@ function ListViewPage() {
     );
 
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 mb-5">
       <div className="row">
         <div className="col-md-4 col-sm-5 d-flex align-items-center  justify-content-end justify-content-lg-start ">
           <span className="me-3">Pages per page:</span>
