@@ -1,6 +1,7 @@
-export type Infos = {
+export type UsersMainInfos = {
   results: UserMainInfos[];
 };
+
 export type UserMainInfos = {
   name: {
     first: string;
@@ -25,4 +26,12 @@ export type UserMainInfos = {
     medium: string;
     thumbnail: string;
   };
+};
+
+export type UserAddress = {
+  userName: string;
+  street: string;
+  city: string;
+  state: string;
+  postalCode: string;
 };
