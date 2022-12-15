@@ -47,7 +47,7 @@ function ListViewPage() {
     <div className="container mt-3 mb-5">
       <div className="row">
         <div className="col-md-4 col-sm-5 d-flex align-items-center  justify-content-end justify-content-lg-start ">
-          <span className="me-3">Pages per page:</span>
+          <span className="me-3">Items per page:</span>
           <Select
             options={[5, 10, 30, 50]}
             setValue={onPaginationChange}
