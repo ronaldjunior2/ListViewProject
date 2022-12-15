@@ -14,7 +14,12 @@ $ npm install
 # Run the app
 $ npm run dev
 # The site will automatically start
-
+--------------------
+IF YOU PREFER SEE ON THE BUILD VERSION:
+$ npm run build
+#create a dist
+$ npm run preview
+#started build version
 ```
 
 ## For Testing
