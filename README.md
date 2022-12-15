@@ -12,7 +12,7 @@ $ cd ListViewProject
 # Install the dependencies
 $ npm install
 # Run the app
-$ npm start
+$ npm run dev
 # The site will automatically start
 
 ```
