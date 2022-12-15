@@ -65,7 +65,7 @@ export function UserTable({
   );
 }
 type UserTableProps = {
-  data: UsersMainInfos;
+  data: UsersMainInfos | null;
   onAddressDetailsClick: (userAddress: UserAddress) => void;
   currentPage: number;
   itemsPerPage: number;

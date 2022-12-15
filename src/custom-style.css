@@ -1,0 +1,12 @@
+tbody > tr > td {
+    vertical-align: middle !important;
+  }
+  
+   th {
+    padding: 20px 20px !important;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  

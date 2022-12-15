@@ -6,7 +6,7 @@ import { UserAddress } from "../protocols";
 
 export function AddressModal({ show, handleClose, userAddress }: ModalProps) {
   return (
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose as () => {}}>
       <Modal.Header closeButton>
         <Modal.Title>
           <span className="mr-2">{`${userAddress?.userName}/Address`}</span>
