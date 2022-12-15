@@ -4,7 +4,7 @@ import { UserTable } from "../../components";
 import { createManyUsersInfos } from "../fakes/createUsersFakes";
 
 describe("UserTable", () => {
-  test("Should render the correctly numbers of table rows", () => {
+  test("Should render the correct numbers of table rows", () => {
     const data = createManyUsersInfos(10);
     const { getByTestId } = render(
       <UserTable
@@ -18,7 +18,7 @@ describe("UserTable", () => {
     expect(getByTestId("user-table-body").children.length).toBe(5);
   });
 
-  test("Should render the correct users infos on the table", () => {
+  test("Should render the correct users information on the table", () => {
     const data = createManyUsersInfos(10);
     const { getByTestId } = render(
       <UserTable

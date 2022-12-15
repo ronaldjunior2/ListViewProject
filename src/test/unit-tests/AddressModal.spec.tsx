@@ -50,7 +50,7 @@ describe("AddressModal", () => {
     expect(addressModalTitle).toBeInTheDocument();
   });
 
-  test("Should call button click and close the modal with false value", () => {
+  test("Should call close button function with false value", () => {
     const userAddressProps = {
       street: faker.address.street(),
       city: faker.address.city(),

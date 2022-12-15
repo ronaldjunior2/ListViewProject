@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { Pagination } from "../../components/Pagination";
 
 describe("Pagination", () => {
-  test("Should render the correctly numbers of pagination itens", () => {
+  test("Should render the correct numbers of pagination items", () => {
     const itemsPerPage = 10;
     const total = 50;
     const { getByTestId } = render(
@@ -71,7 +71,7 @@ describe("Pagination", () => {
     expect(onChange).toHaveBeenCalledWith(3);
   });
 
-  test("should the pagination active at the current page position", () => {
+  test("Should pagination active class at the current page position", () => {
     const itemsPerPage = 10;
     const total = 50;
     const currentPage = 2;

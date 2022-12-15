@@ -1,7 +1,7 @@
 import { faker } from "@faker-js/faker";
-import { UserMainInfos, UsersMainInfos } from "../../protocols";
+import { UserMainInfo, UsersMainInfos } from "../../protocols";
 
-function createOneUserInfos(): UserMainInfos {
+function createOneUserInfos(): UserMainInfo {
   return {
     name: {
       first: faker.name.firstName(),

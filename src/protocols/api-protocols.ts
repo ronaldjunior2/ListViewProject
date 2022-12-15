@@ -1,8 +1,8 @@
 export type UsersMainInfos = {
-  results: UserMainInfos[];
+  results: UserMainInfo[];
 };
 
-export type UserMainInfos = {
+export type UserMainInfo = {
   name: {
     first: string;
     last: string;

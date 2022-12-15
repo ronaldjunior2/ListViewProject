@@ -2,7 +2,7 @@
 
 <br><br>
 
-## Pre-requisites to Running the web application
+## Pre-requirements to Running the web application
 
 ```bash
 # Clone this repository
@@ -15,11 +15,11 @@ $ npm install
 $ npm run dev
 # The site will automatically start
 --------------------
-IF YOU PREFER SEE ON THE BUILD VERSION:
+IF YOU PREFER TO SEE ON THE BUILD VERSION:
 $ npm run build
 #create a dist
 $ npm run preview
-#started build version
+#start build version
 ```
 
 ## For Testing
@@ -35,13 +35,13 @@ $ npm test
 
 ## Features
 
-- [x] List of user information like:user image,first name, last name,email,phone<br>
-- [x] Display details user address when clicking details icon<br>
+- [x] List of user information: user image,first name, last name,email,phone<br>
+- [x] Display details of user address when clicking details icon<br>
 - [x] Has dynamic pagination in relation to the number of items displayed<br>
 
 <br><br>
 
-## Api consumed
+## Consumed Api
 
 <br>
 Documentation: https://randomuser.me/documentation
@@ -88,7 +88,7 @@ Version Control:
 
 ## Deploy
 
-The application layout is available on Vercel, to see click below:
+The application layout is available on Vercel, to see click:
 <a style='margin-left: 10px;' href='https://list-view-project.vercel.app/'><img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 <br>
